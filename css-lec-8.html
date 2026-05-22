@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+
+        @media(max-width:300px) {
+            .box {
+                width: 200px;
+                height: 200px;
+                background-color: rgb(192, 15, 227);
+                color: white;
+                border: 5px solid white;
+                border-radius: 20px;
+            }
+        }
+        @media (min-width:300px) and (max-width:600px){
+            .box {
+                width: 200px;
+                height: 200px;
+                background-color: rgb(15, 227, 96);
+                color: black;
+                border: 5px solid black;
+                border-radius: 60px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        div for media query
+    </div>
+</body>
+
+</html>
