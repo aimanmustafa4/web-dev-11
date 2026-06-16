@@ -27,3 +27,18 @@ let m = 56;
 console.log(m);
 m %= 90;
 console.log(m);
+
+// comparison operators (< , > , <= , >= , == , === , !=)
+console.log("Comparison Operators");
+let a = "900";
+let b = 700;
+let c = "900";
+console.log(a ===  c);
+
+// Logical operators(&& , || , ! )
+console.log("Logical operators");
+let age = 12;
+let canDrive = true;
+console.log( !canDrive);
+
+
