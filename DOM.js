@@ -1,18 +1,28 @@
+console.log("DOCUMENT OBJECT MODEL ");
 console.log(window);
 console.log(document);
-// old way
-// let oneHead = document.getElementsByClassName("heading");
-// oneHead[0].innerHTML = "Document Object Model";
-// console.log(oneHead);
 
-// let button = document.getElementById("btn-1");
-// button.innerHTML = "button to click";
-// console.log(button);
+// Old way
+// let firstHead = document.getElementsByClassName("title");
+// firstHead[0].innerHTML="DOCUMENT OBJECT MODEL ";
+// console.log(firstHead);
+
+// let paragraph = document.getElementsByClassName("para");
+// paragraph[0].innerHTML="DOM FOR WEB-DEV-11";
+// console.log(paragraph);
 
 
-// new way 
+// let btn = document.getElementById("myButton");
+// btn.innerHTML = "LOGIN/SIGNUP";
+// console.log(btn);
 
-let firstHead = document.querySelector(".heading");
-firstHead.innerHTML= "DOM";
-console.log(firstHead);
+// New Way
 
+
+let firstPara = document.querySelector(".para");
+firstPara.innerHTML = "lorem ipsum constrectrator"
+console.log(firstPara);
+
+let btn = document.querySelectorAll("#myButton");
+btn[0].innerHTML = "Login here";
+console.log(btn);
